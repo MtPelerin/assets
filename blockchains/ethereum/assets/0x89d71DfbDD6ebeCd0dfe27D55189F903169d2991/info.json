@@ -1,0 +1,11 @@
+{
+    "name": "TH Mining",
+    "website": "https://thmining.ch/",
+    "description": "",
+    "explorer": "https://etherscan.io/token/0x89d71dfbdd6ebecd0dfe27d55189f903169d2991",
+    "type": "ERC20",
+    "symbol": "THDX",
+    "decimals": 0,
+    "status": "active",
+    "id": "0x89d71DfbDD6ebeCd0dfe27D55189F903169d2991"
+}
