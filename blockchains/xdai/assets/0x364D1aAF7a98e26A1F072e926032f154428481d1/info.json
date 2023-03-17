@@ -1,0 +1,11 @@
+{
+    "name": "CleanSat Mining Beta",
+    "website": "https://cleansatmining.com",
+    "description": "The first company proposing tokenized mining containers exclusively powered by renewable energy sources",
+    "explorer": "https://gnosisscan.io/address/0x364D1aAF7a98e26A1F072e926032f154428481d1",
+    "type": "ERC20",
+    "symbol": "CSM-BETA",
+    "decimals": 9,
+    "status": "active",
+    "id": "0x364D1aAF7a98e26A1F072e926032f154428481d1"
+}
