@@ -1,0 +1,11 @@
+{
+    "name": "Wecan",
+    "website": "https://wecangroup.ch/",
+    "description": "We believe, we can move into a new era, the era of the internet of Trust. We believe Web 3.0. is the future and we want to Build the future.",
+    "explorer": "https://etherscan.io/token/0xeA60CD69F2B9fD6Eb067bdDBbF86a5BdeFfbBc55",
+    "type": "ERC20",
+    "symbol": "WECAN",
+    "decimals": 18,
+    "status": "active",
+    "id": "0xeA60CD69F2B9fD6Eb067bdDBbF86a5BdeFfbBc55"
+}
