@@ -29,10 +29,32 @@ such as
 ## Original Documentation
 
 For more information, see the original Trust Wallet documentation on their [developers site](https://developer.trustwallet.com/add_new_asset):
+<center><img src='https://trustwallet.com/assets/images/media/assets/horizontal_blue.png' height="200"></center>
 
-- [Contribution guidelines](https://developer.trustwallet.com/assets/repository_details)
+## How to add token
 
-- [FAQ](https://developer.trustwallet.com/assets/faq)
+Please note that __brand new tokens are not accepted__,
+the projects have to be sound, with information available, and __non-minimal circulation__
+(for limit details see <https://developer.trustwallet.com/listing-new-assets/requirements>).
+
+### Assets App
+
+The [Assets web app](https://assets.trustwallet.com) can be used for most new token additions (Github account is needed).
+
+### Quick starter
+
+Details of the repository structure and contribution guidelines are listed on the
+[Developers site](https://developer.trustwallet.com/listing-new-assets/new-asset).
+Here is a quick starter summary for the most common use case.
+
+
+## Documentation
+
+For details, see the [Developers site](https://developer.trustwallet.com):
+
+- [Contribution guidelines](https://developer.trustwallet.com/listing-new-assets/repository_details)
+
+- [FAQ](https://developer.trustwallet.com/listing-new-assets/faq)
 
 ## Scripts
 
@@ -41,7 +63,9 @@ There are several scripts available for maintainers:
 - `make check` -- Execute validation checks; also used in continuous integration.
 - `make fix` -- Perform automatic fixes where possible
 - `make update-auto` -- Run automatic updates from external sources, executed regularly (GitHub action)
-- `make update-manual` -- Run manual updates from external sources, for manual use.
+- `make add-token asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Create `info.json` file as asset template.
+- `make add-tokenlist asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist.json.
+- `make add-tokenlist-extended asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist-extended.json.
 
 ## On Checks
 
@@ -66,3 +90,7 @@ Mt Pelerin will reject projects that are deemed as scam or fraudulent after care
 Mt Pelerin reserves the right to change the terms of asset submissions at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
 
 Additionally, spam-like behavior, including but not limited to mass distribution of tokens to random addresses will result in the asset being flagged as spam and possible removal from the repository.
+
+## License
+
+The scripts and documentation in this project are released under the [MIT License](LICENSE)
