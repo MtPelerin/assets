@@ -1,0 +1,11 @@
+{
+    "name": "Boss Info AG",
+    "symbol": "BOSS",
+    "type": "ERC20",
+    "decimals": 0,
+    "description": "BOSS is the tokenized share of Boss Info AG.",
+    "website": "https://www.bossinfo.com/",
+    "explorer": "https://etherscan.io/token/0x2e880962a9609aa3eab4def919fe9e917e99073b",
+    "status": "active",
+    "id": "0x2E880962A9609aA3eab4DEF919FE9E917E99073B"
+}
