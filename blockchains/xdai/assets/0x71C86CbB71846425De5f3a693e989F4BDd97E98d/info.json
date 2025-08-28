@@ -1,0 +1,11 @@
+{
+    "name": "CleanSat Mining Gamma",
+    "website": "https://cleansatmining.com",
+    "description": "The first company proposing tokenized mining containers exclusively powered by renewable energy sources",
+    "explorer": "https://gnosisscan.io/address/0x71C86CbB71846425De5f3a693e989F4BDd97E98d",
+    "type": "ERC20",
+    "symbol": "CSM-GAMMA",
+    "decimals": 9,
+    "status": "active",
+    "id": "0x71C86CbB71846425De5f3a693e989F4BDd97E98d"
+}
